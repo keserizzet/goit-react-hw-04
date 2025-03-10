@@ -10,7 +10,6 @@ import styles from "./App.module.css";
 
 
 
-
 const API_URL = "https://api.unsplash.com/search/photos";
 const ACCESS_KEY = "_NWHtHB8n_uTXajA6eP5quMLoRppGEkU7O5Jpa2PGlY";
 
