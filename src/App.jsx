@@ -6,7 +6,8 @@ import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 import Loader from "./components/Loader/Loader";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
 import ImageModal from "./components/ImageModal/ImageModal";
-import styles from "/src/App.module.css";
+import styles from "./App.module.css";
+
 
 
 
