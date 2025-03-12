@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // ✅ Bu ayar Vercel için çok önemli!
+  base: "./",
   build: {
     outDir: "dist",
     rollupOptions: {
