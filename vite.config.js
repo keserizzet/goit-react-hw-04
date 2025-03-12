@@ -6,6 +6,13 @@ export default defineConfig({
   base: "./",
   build: {
     outDir: "dist",
+    rollupOptions: {
+      input: "index.html",
+    },
+  },
+  css: {
+    modules: {
+      scopeBehaviour: "local",
+    },
   },
 });
-
