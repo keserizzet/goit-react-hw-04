@@ -7,9 +7,13 @@ export default defineConfig({
     alias: {
       "@": "/src",
     },
-    extensions: [".js", ".jsx"],
   },
-  esbuild: {
-    loader: "jsx",
+  css: {
+    modules: {
+      localsConvention: "camelCaseOnly",
+    },
+  },
+  build: {
+    outDir: "dist",
   },
 });
